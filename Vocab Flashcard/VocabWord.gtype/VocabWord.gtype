@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0F1B61CD971FB8241947387AB110AC152860E273800D2FDF8B30568D6E5220F53BABD44D3444B7B53B0CDF626EF1DA13F592BC957468568D7A18CB038F09C754" Timestamp="1D524A9FCBFC468" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition BaseType="gObject" BaseTypeSignature="@8c315d1bae04489a8cb11298f4123f1e" DataType="@898b6c622dcc4622b391be0b3668e595" Id="8b9a1f33217444ed93c828383b0813a8" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="a0c327f1502c48beafb437b9a9c8e6e6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="e7d22e24d80c4ba6b92c548a2281650f" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="d834cdf1acd9468cb6b3fae5354b694e" Left="[float]0" TemplateName="[string]Banner" Top="[float]0" Width="[float]40">
+					<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Id="89daae5617b042cbba09976ae82e237b" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" Id="eb7ee4cc4e29473b9505f0e2f7cb9505" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+					<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" Id="8e123a42b24a42fa99df58a9d2400b80" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+				</IconTemplate>
+				<Text Foreground="[SMColor]#ff000000" Height="[float]34" Id="7c3f462df4448a5934949c659fcb069" Left="[float]3" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Class" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]3" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
+					<FontSetting FontFamily="Verdana" FontSize="6" Id="ced8d66c2fa8476f9ebd20c08b076384" />
+				</Text>
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="String" Id="f08e065888a748f9a082d18b15cb587a" Name="Word">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="String" Id="eb0281095ade48d9bb59e35048983940" Name="Definition">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Path" Id="9ed743295787426b892e6ceacd811654" Name="Resource Link">
+			<p.DefaultValue>
+				<Path a="1" />
+			</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Int32" Id="e8185445909f408ab0e132efa676f4c5" Name="ID">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="56e4c680a50a45b8905f8f0d92b24983" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="61618ad18cdc4b79895720e80c09b3a3" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="5f45c945743349749849ee70d0262752" Name="VocabWord.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="4d11bcf7a2e7458cb00ad306eb9e6396" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="92a8b83748d0458587e3bc551f2f189b" xmlns="http://www.ni.com/MocCommon">
+					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="e9d9f4c71bad4270ad264c187a9aa0d3" Label="[UIModel]bca186f2408549c7af7e4db53ca16dc4" Left="[float]108" MinHeight="[float]24" TabIndex="[int]0" Text="{DataItemBinding Id=f08e065888a748f9a082d18b15cb587a}" Top="[float]133" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="bca186f2408549c7af7e4db53ca16dc4" LabelOwner="[UIModel]e9d9f4c71bad4270ad264c187a9aa0d3" Left="[float]108" Text="[string]Word" Top="[float]113" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="8691a81fb4d4410b71a86c2d92b8266" Label="[UIModel]edf8fb9d985f4d2f85ef22b3bd3b9368" Left="[float]110" MinHeight="[float]24" TabIndex="[int]1" Text="{DataItemBinding Id=eb0281095ade48d9bb59e35048983940}" Top="[float]191" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="edf8fb9d985f4d2f85ef22b3bd3b9368" LabelOwner="[UIModel]8691a81fb4d4410b71a86c2d92b8266" Left="[float]110" Text="[string]Definition" Top="[float]171" Width="[float]52" xmlns="http://www.ni.com/PanelCommon" />
+					<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" Height="[float]24" Id="f677997885094d0aa90ebb51c785984d" Label="[UIModel]22975aff579d4245b7f9c7e85b2a401f" Left="[float]110" MinHeight="[float]24" Path="{DataItemBinding Id=9ed743295787426b892e6ceacd811654}" TabIndex="[int]2" Top="[float]248" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="22975aff579d4245b7f9c7e85b2a401f" LabelOwner="[UIModel]f677997885094d0aa90ebb51c785984d" Left="[float]110" Text="[string]Resource Link" Top="[float]228" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="ca0e5c61454241e68e5e06fbb27f5b00" Interval="[int]1" Label="[UIModel]fdc747895575408e9daa9984664463e4" Left="[float]107" MinHeight="[float]24" TabIndex="[int]3" Top="[float]80" Value="{DataItemBinding Id=e8185445909f408ab0e132efa676f4c5}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="fdc747895575408e9daa9984664463e4" LabelOwner="[UIModel]ca0e5c61454241e68e5e06fbb27f5b00" Left="[float]107" Text="[string]ID" Top="[float]60" Width="[float]12" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="8c315d1bae04489a8cb11298f4123f1e">
+			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="898b6c622dcc4622b391be0b3668e595">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Word" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Definition" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ID" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2859E7043D387F19D5AA4D4D29C5C22DFE78D03722909A302B35082CB3803F64A2DFE801781F7A8F1E2FCA2FAE9BADF7AF954A9C34ACB26384CE98A24D4DD07A" Timestamp="1D524AC27C61BA6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="a3fe221db9954873ab072bd82c2007d9" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="c68367e31fb6429da330f530bdb66c37" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d1f0eca94524b958e47c09a5d8e6a6e" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="bedc021f06ca418a9f22957f16689a69" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="f8ea2e32524436cbb5cfbb47a0b8e70" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="917b470c56f4f809e8f9df77373e2ef" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="15dc8f785fab48c8bbfa9e08bcfb919c" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Main" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="11.25" Id="42cd2dd11b4048259bbbcc8e1d434338" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="7530063a0ce2419aaeddbdbde123af2b" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="1f563254f6404e9b89dd26cda1752014" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="60 135 40 15" DataItem="db1e8c875ebf42e0b4276606ad430a3d" Id="9b6ada947dee4d50b823e8bfea0565de" Label="d683232928174ebfa528f5a0c35e9bb6">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="9b6ada947dee4d50b823e8bfea0565de" Bounds="25 135 30 15" Id="d683232928174ebfa528f5a0c35e9bb6" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Stop</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="cb25a3d2eb4f4821a64062516747329c" Id="ac37cc7adcc443e6a69a24002c16f496" Label="bd2428b6872e4bc4bfe8237bc132267e">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="ac37cc7adcc443e6a69a24002c16f496" Bounds="-35 0 30 15" Id="bd2428b6872e4bc4bfe8237bc132267e" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Open Link</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="34dcc5f02a27486f8b272f9aaf3c6282" Id="2cc522f5d49d4d61b1573a6a72b5dec3" Label="8258275659405eb4cede32d98cc9d1">
+				<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="2cc522f5d49d4d61b1573a6a72b5dec3" Bounds="45 0 30 15" Id="8258275659405eb4cede32d98cc9d1" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text># Vocab Words Stored</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="bf51d778545d4bb2950a9abc812d5df0" Id="10ba4db8cb1349b4a0f39fd4ac19ebad" Label="b4979d13936843f69650fc4028ebd978">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="10ba4db8cb1349b4a0f39fd4ac19ebad" Bounds="-35 0 30 15" Id="b4979d13936843f69650fc4028ebd978" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Word Index</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="f1f40106a25e4b4c9231cc88fc5d024c" Id="157cd8d8603d4a699a2ef4c3b3da5795" Label="9d30e047aef0413b967f76d68916315e">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="157cd8d8603d4a699a2ef4c3b3da5795" Bounds="-35 0 30 15" Id="9d30e047aef0413b967f76d68916315e" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Random Word</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="8fdbe245038f4cf0988a21f8b34f1493" Id="d153368eb0b84b12ae7160a62b121ad8" Label="2825c7faa74d4b7e8221b2005111b064">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="d153368eb0b84b12ae7160a62b121ad8" Bounds="-35 0 30 15" Id="2825c7faa74d4b7e8221b2005111b064" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Save</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="1d74ad946aef43189ee1428e0af137e2" Id="9a598c1f2bdd47e2bfc7680a5c0d97fb" Label="e198cc6a417f4718a891d55fa4edd8ba">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="9a598c1f2bdd47e2bfc7680a5c0d97fb" Bounds="45 0 30 15" Id="e198cc6a417f4718a891d55fa4edd8ba" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Header (Current Mode)</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="83b588a7018946e3982c9f688ca08c8f" Id="b7e268481f18442f8fde6d9d880491e4" Label="39b5fbedddab4ee48b619a89af85b736">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="b7e268481f18442f8fde6d9d880491e4" Bounds="45 0 30 15" Id="39b5fbedddab4ee48b619a89af85b736" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Definition</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="ded01f36a13a4fdba0c3264bbbb9885d" Id="100a91586c134f71a1772b64e95ff51e" Label="2b8e0f3403e84363a7152f61544869ea">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="100a91586c134f71a1772b64e95ff51e" Bounds="45 0 30 15" Id="2b8e0f3403e84363a7152f61544869ea" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Word</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="5c51c50c39b44ea4a5a0b1ef2eb3d460" Id="58c484e27d494cec84845aac5ec9f63c" Label="6355ce6bf00f468d9bb6b300c36b9b1e">
+				<Terminal DataType="Path" Direction="Input" Hotspot="3 5" Id="Path" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="58c484e27d494cec84845aac5ec9f63c" Bounds="45 0 30 15" Id="6355ce6bf00f468d9bb6b300c36b9b1e" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Resource Link</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="a6bfea1b3db7459aa2e6e4448b4e3882" Id="acbc725d21a74673b92178bbd8bf1a19" Label="18f0a56d520f4c7aa3ef9dee8e5d3c24">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="acbc725d21a74673b92178bbd8bf1a19" Bounds="-35 0 30 15" Id="18f0a56d520f4c7aa3ef9dee8e5d3c24" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Insert Word</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
+		<FrontPanelUnplacedItems Id="3456bb42fee0499085f868c33aefa436" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="d7469c2fdc17457ca8c4d4bc7ceb1a9b" />
+		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="35664785ec524679b54bcfa1e40e5d6d" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="44090acce9ef4d7c8e0a03b941bcf8fe" />
+			<Button BaseName="[string]Stop" Content="[string]Stop" FalseForeground="[SMColor]#ffff0000" Foreground="[SMColor]#ffff0000" Height="[float]24" Id="88672362feb24894915a5bef81ff0692" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]ed9e6dcd7eb3446a93bb1ac2d3f8463d" Left="[float]488" MinHeight="[float]24" MinWidth="[float]44" Shape="[ButtonShape]Square" TabIndex="[int]0" Top="[float]100" TrueForeground="[SMColor]#ffff0000" Value="{DataItemBinding Id=db1e8c875ebf42e0b4276606ad430a3d}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="ed9e6dcd7eb3446a93bb1ac2d3f8463d" LabelOwner="[UIModel]88672362feb24894915a5bef81ff0692" Left="[float]488" Text="[string]Stop" Top="[float]80" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]TextButton" Content="[string]Open Link" Height="[float]24" Id="3934db16a65a4c46b0bda1e861501182" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]d397d189ef674829980e5c1fd5fea277" Left="[float]488" MinHeight="[float]24" MinWidth="[float]63" Shape="[ButtonShape]Square" TabIndex="[int]1" Top="[float]520" Value="{DataItemBinding Id=cb25a3d2eb4f4821a64062516747329c}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="d397d189ef674829980e5c1fd5fea277" LabelOwner="[UIModel]3934db16a65a4c46b0bda1e861501182" Left="[float]488" Text="[string]Open Link" Top="[float]500" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="9b0d3b64f18b485e9c6757f941d65fd1" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]81e252e30b834cca893226941680baa6" Left="[float]24" MinHeight="[float]24" TabIndex="[int]2" Top="[float]36" Value="{DataItemBinding Id=34dcc5f02a27486f8b272f9aaf3c6282}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="81e252e30b834cca893226941680baa6" LabelOwner="[UIModel]9b0d3b64f18b485e9c6757f941d65fd1" Left="[float]24" Text="[string]# Vocab Words Stored" Top="[float]16" Width="[float]119" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="7bc5d2a3a195450f8342cd2d0abd3ae3" Label="[UIModel]3e56eeb556d34b428571eec2bfe3ad89" Left="[float]24" MinHeight="[float]24" TabIndex="[int]3" Top="[float]100" Value="{DataItemBinding Id=bf51d778545d4bb2950a9abc812d5df0}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="3e56eeb556d34b428571eec2bfe3ad89" LabelOwner="[UIModel]7bc5d2a3a195450f8342cd2d0abd3ae3" Left="[float]24" Text="[string]Word Index" Top="[float]80" Width="[float]62" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]TextButton" Content="[string]Random Word" Height="[float]88" Id="a433c73f0e9c439ea10391f0cc3cbb41" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]bd011400d0334dceb268877d2b212beb" Left="[float]24" MinHeight="[float]24" MinWidth="[float]86" Shape="[ButtonShape]Square" TabIndex="[int]4" Top="[float]564" Value="{DataItemBinding Id=f1f40106a25e4b4c9231cc88fc5d024c}" Width="[float]248" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="bd011400d0334dceb268877d2b212beb" LabelOwner="[UIModel]a433c73f0e9c439ea10391f0cc3cbb41" Left="[float]24" Text="[string]Random Word" Top="[float]544" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]TextButton" Content="[string]Save" Height="[float]24" Id="17f834e75e904d72ad57af273904e793" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]9cfc1d91ba5a42f786860de2370567b6" Left="[float]488" MinHeight="[float]24" MinWidth="[float]33" Shape="[ButtonShape]Square" TabIndex="[int]5" Top="[float]36" Value="{DataItemBinding Id=8fdbe245038f4cf0988a21f8b34f1493}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="9cfc1d91ba5a42f786860de2370567b6" LabelOwner="[UIModel]17f834e75e904d72ad57af273904e793" Left="[float]488" Text="[string]Save" Top="[float]16" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="6a876501e2d644218d60b751d8e1dc7d" IsReadOnly="[bool]True" Label="[UIModel]ccac940462fc4d38a36f1f49ec403cd3" Left="[float]168" MinHeight="[float]24" TabIndex="[int]6" Text="{DataItemBinding Id=1d74ad946aef43189ee1428e0af137e2}" TextAlignment="[TextAlignment]Center" Top="[float]36" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]296" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="ccac940462fc4d38a36f1f49ec403cd3" LabelOwner="[UIModel]6a876501e2d644218d60b751d8e1dc7d" Left="[float]168" Text="[string]Header (Current Mode)" Top="[float]16" Width="[float]124" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]312" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="f69de9ffba4f4b8bab3c681a9b471e74" IsReadOnly="[bool]True" Label="[UIModel]63e822c242124fe2b1f3955cce3023b1" Left="[float]24" MinHeight="[float]24" TabIndex="[int]7" Text="{DataItemBinding Id=83b588a7018946e3982c9f688ca08c8f}" Top="[float]168" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]536" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="63e822c242124fe2b1f3955cce3023b1" LabelOwner="[UIModel]f69de9ffba4f4b8bab3c681a9b471e74" Left="[float]24" Text="[string]Definition" Top="[float]148" Width="[float]52" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="702f787da4a84cdb837f14286bc769a9" IsReadOnly="[bool]True" Label="[UIModel]254572664ef44f25a125410e188ee6f5" Left="[float]120" MinHeight="[float]24" TabIndex="[int]8" Text="{DataItemBinding Id=ded01f36a13a4fdba0c3264bbbb9885d}" TextAlignment="[TextAlignment]Center" Top="[float]100" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]344" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="254572664ef44f25a125410e188ee6f5" LabelOwner="[UIModel]702f787da4a84cdb837f14286bc769a9" Left="[float]120" Text="[string]Word" Top="[float]80" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<PathSelector BaseName="[string]Path" Height="[float]24" Id="d5d941776dd042a9a1d4afba3b005f9e" InteractionMode="[PathSelectorInteractionModes]ReadOnly" Label="[UIModel]5d5dbe251b4544da835f1f11f78c4ba4" Left="[float]24" MinHeight="[float]24" Path="{DataItemBinding Id=5c51c50c39b44ea4a5a0b1ef2eb3d460}" TabIndex="[int]9" Top="[float]520" Width="[float]440" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="5d5dbe251b4544da835f1f11f78c4ba4" LabelOwner="[UIModel]d5d941776dd042a9a1d4afba3b005f9e" Left="[float]24" Text="[string]Resource Link" Top="[float]500" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]TextButton" Content="[string]Insert Word" Height="[float]88" Id="97892d25be7b448bb3cc405077f23802" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]19c91a4dea2c44fe92297d661fc54a81" Left="[float]312" MinHeight="[float]24" MinWidth="[float]72" Shape="[ButtonShape]Square" TabIndex="[int]10" Top="[float]564" Value="{DataItemBinding Id=a6bfea1b3db7459aa2e6e4448b4e3882}" Width="[float]248" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="19c91a4dea2c44fe92297d661fc54a81" LabelOwner="[UIModel]97892d25be7b448bb3cc405077f23802" Left="[float]312" Text="[string]Insert Word" Top="[float]544" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem DataType="Boolean" Id="db1e8c875ebf42e0b4276606ad430a3d" IsLatched="True" Name="Stop" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="cb25a3d2eb4f4821a64062516747329c" IsLatched="True" Name="Open Link" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="34dcc5f02a27486f8b272f9aaf3c6282" Name="# Vocab Words Stored" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="bf51d778545d4bb2950a9abc812d5df0" Name="Word Index" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="f1f40106a25e4b4c9231cc88fc5d024c" IsLatched="True" Name="Random Word" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="8fdbe245038f4cf0988a21f8b34f1493" IsLatched="True" Name="Save" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="1d74ad946aef43189ee1428e0af137e2" Name="Header (Current Mode)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="83b588a7018946e3982c9f688ca08c8f" Name="Definition" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="ded01f36a13a4fdba0c3264bbbb9885d" Name="Word" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Path" Id="5c51c50c39b44ea4a5a0b1ef2eb3d460" Name="Resource Link" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Path a="1" />
+			</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="a6bfea1b3db7459aa2e6e4448b4e3882" IsLatched="True" Name="Insert Word" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
