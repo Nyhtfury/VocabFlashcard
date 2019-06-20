@@ -7,4 +7,92 @@
 			<string>VocabWord.gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>Program State_edbba919e5d046b79fc6f222e7ed0381.gtypecache</string>
+		</key>
+		<value>
+			<string>Program State.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-g-stdlib-src-1.0.6.18_6547bbe8324e4a84956426ddd4f31cb9.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-g-stdlib-src-1.0.6.18.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.File IO (General)_7_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.File IO (General).gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Error_6_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Error.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Error_99_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Error.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>JSON (multiple)_71_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>JSON (multiple).gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>error protocol_61_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>error protocol.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>JSON (call chain)_69_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>JSON (call chain).gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Color Picker_28_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Color Picker.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Color_20_28_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Color.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NationalInstruments.DataComms_873ef1d9eb4b4ee893e0c41199a93a77.DLLcache</string>
+		</key>
+		<value>
+			<string>NationalInstruments.DataComms.DLLcache</string>
+		</value>
+	</item>
 </SerializableDictionary>
