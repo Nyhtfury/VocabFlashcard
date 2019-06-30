@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="32779D8A7337612BC947A2E98E9E1AE6D2D7687BCA8559A4FEEE7F666FCA832BF622CFDAB63A7BC4F46773897A180878A635231446960F13E349FE14A2A37503" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="56D139D332F39C41B7EAF7BE3C0E2FEEA234A84A023F1D9CEFF2241B9F095354FBD3B109EDADD8602651E533D11AAAD503B7EF46F5C0708CF31251A5442C4E69" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -135,6 +136,8 @@
 						<SourceFileReference Bindings="EnvoyManager,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="10a338a7395346ffbdcf93d3eeb3ae01" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VocabWord.gtype" StoragePath="VocabWord.gtype\VocabWord.gtype" />
 						<SourceFileReference Bindings="EnvoyManager,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="edbba919e5d046b79fc6f222e7ed0381" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Program State.gtype" StoragePath="Program State.gtype\Program State.gtype" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="d1ab8653e2414c56acdefae24d487698" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="InitVocabArray.gvi" StoragePath="InitVocabArray.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="e8fbd4a460454f1a870966969a268b0f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="EnableWordEdit.gvi" StoragePath="EnableWordEdit.gvi" />
+						<SourceFileReference Bindings="EnvoyManager,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="d2ac4e073ded4f7a9932f71bdbbc76da" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="StateData.gtype" StoragePath="StateData.gtype\StateData.gtype" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="RcxRepositoryManagerDefinition" Id="f43780dbac69460fbd9a5c05947cff45" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx.lib" Reparentable="False">
 						<RepositoryManagerDefinition />
@@ -186,6 +189,8 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="3bd7da8894074885a73570063180a22d" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VocabWord.gtype" StoragePath="VocabWord.gtype\VocabWord.gtype" />
 				<SourceFileReference Bindings="EnvoyManager" Id="38da84d517474ab8b2bedf59f76ba340" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Program State.gtype" StoragePath="Program State.gtype\Program State.gtype" />
 				<SourceFileReference Id="8a6c66d91d2c42819daeaad4790cb9e5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="InitVocabArray.gvi" StoragePath="InitVocabArray.gvi" />
+				<SourceFileReference Id="b0103b84f66143d290003d11f91faf5a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="EnableWordEdit.gvi" StoragePath="EnableWordEdit.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="c04c3f376fd7447e9332f9695d772655" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="StateData.gtype" StoragePath="StateData.gtype\StateData.gtype" />
 			</EmbeddedDefinitionReference>
 			<EmbeddedDefinitionReference Id="874b8b7771d3421c9cfa057a0c08c1db" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 				<PackageReferencesDefinition>
@@ -207,6 +212,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="946839d128ef435f8478c4bee257cbd9" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-g-reporting-src-1.0.0.6.niaddon" StoragePath="ref://NI/G/reporting-src/1.0.0.6" />
 				<SourceFileReference Bindings="EnvoyManager" Id="d896f7377d6c481e9b1105904f624c70" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-g-stdlib-src-1.0.6.18.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.6.18" />
 			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="EnvoyManager" Id="5ce3230f55c47b6a419b435cab2cdc8" ModelDefinitionType="{http://www.ni.com/Data}DataIndexDefinition" Name="data.xml" StoragePath="NI Project Data\data.xml" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="546ba17e41c342978ea496663ffbefbd" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner_2" StoragePath="SystemDesigner" />
 	</Project>
