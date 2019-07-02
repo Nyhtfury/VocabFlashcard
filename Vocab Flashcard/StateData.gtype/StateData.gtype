@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A37DB01DC3385996E6D55CAD7BA7424639A310BACDEF49794AC4EBFF29A75AAF92A726E65E8652350E54A5D664341ABDAA9F939B2D93604BF0E6D21CD5CC74EC" Timestamp="1D52F7135627FD9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BAB5D6CA093FD24FA719A0B65D7E8FCF98980ECA7C29AE0531B48E979445B0770CC6054781790780D7EED4ECE66E7900155C3E2101D00904DEE8804971B5F19E" Timestamp="1D53074C3D59C7E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@8970a9ee6b9c4b3ea1eab1a32024763e" Id="276b168311b54ab98bef47054072eabe" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@7d5023b6428348e5b0a909dcc98cd77a" Id="276b168311b54ab98bef47054072eabe" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="VocabWord.gtype" />
 			<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
@@ -17,7 +17,7 @@
 				<IconTemplate Height="[float]40" Id="8871717560654d9492681f30f8ab2d37" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@8970a9ee6b9c4b3ea1eab1a32024763e" Id="bea4161cc036434290c7d1463c3db1cd" Name="State Data">
+		<DataItem DataType="@7d5023b6428348e5b0a909dcc98cd77a" Id="bea4161cc036434290c7d1463c3db1cd" Name="State Data">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>null</Field1>
@@ -38,21 +38,21 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fb372022b9e04192b57601937478f734" Name="StateData.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="814b3e883c3d4f4bb6ee19181983d2e3" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="9b96a60171e440b485b5c338b981bcbe" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@8970a9ee6b9c4b3ea1eab1a32024763e" Height="[float]188" Id="fe65178df8184d96a5736fe05d1d4a8e" Label="[UIModel]70bbf0089dc64d10a019479bdb129414" Left="[float]247" TabIndex="[int]0" Top="[float]169" Value="{DataItemBinding Id=bea4161cc036434290c7d1463c3db1cd}" Width="[float]168" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7d5023b6428348e5b0a909dcc98cd77a" Height="[float]188" Id="fe65178df8184d96a5736fe05d1d4a8e" Label="[UIModel]70bbf0089dc64d10a019479bdb129414" Left="[float]247" TabIndex="[int]0" Top="[float]169" Value="{DataItemBinding Id=bea4161cc036434290c7d1463c3db1cd}" Width="[float]168" xmlns="http://www.ni.com/PanelCommon">
 						<ArrayViewer ArrayElement="[UIModel]8dc6ce1191a643249629e6c63519e34e" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="6e745e843e024c3ea03aca4640c9cb4f" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]ee356ae0dc5c4f0d89a87f6f21a4618e" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Vocab\ Words}" Width="[float]91">
 							<p.DefaultElementValue>null</p.DefaultElementValue>
-							<ValueClassControl BaseName="[string]VocabWord" Id="8dc6ce1191a643249629e6c63519e34e" Label="[UIModel]9c56888f38414dd196ab55fbfa675b79" TabIndex="[int]0" ValueClassControl="[Type]@ad5dca094883465f931699524f61478c" p8:ControlDefinitionChecksum="G1yJ+KWnQzhTE5vPgXqeTNo8FfxU0fHh5WUkvmeOoNU=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+							<ValueClassControl BaseName="[string]VocabWord" Id="8dc6ce1191a643249629e6c63519e34e" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]9c56888f38414dd196ab55fbfa675b79" TabIndex="[int]0" ValueClassControl="[Type]@9bfac739edd14961b123f6c58bf70161" p8:ControlDefinitionChecksum="G1yJ+KWnQzhTE5vPgXqeTNo8FfxU0fHh5WUkvmeOoNU=" xmlns:p8="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 								<p8:p.TypeDefinitionTargets>
 									<p8:TypeDefinitionTarget TargetName="VocabWord.gtype::ControlDefinition" />
 								</p8:p.TypeDefinitionTargets>
-								<p8:Label Height="[float]16" Id="9c56888f38414dd196ab55fbfa675b79" IsVisualChild="[bool]False" LabelOwner="[UIModel]8dc6ce1191a643249629e6c63519e34e" Left="[float]61" Text="[string]VocabWord" Top="[float]-14" Width="[float]61" />
+								<p8:Label Id="9c56888f38414dd196ab55fbfa675b79" IsVisualChild="[bool]False" LabelOwner="[UIModel]8dc6ce1191a643249629e6c63519e34e" Left="[float]0" Text="[string]VocabWord" Top="[float]-20" />
 							</ValueClassControl>
 						</ArrayViewer>
 						<Label Height="[float]16" Id="ee356ae0dc5c4f0d89a87f6f21a4618e" LabelOwner="[UIModel]6e745e843e024c3ea03aca4640c9cb4f" Left="[float]4" Text="[string]Vocab Words" Top="[float]4" Width="[float]70" />
 						<ArrayViewer ArrayElement="[UIModel]72073de3b80d4e0d80b197581ea1a2e3" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="447032896aa1402581e001fc8519ef9f" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]ca6c4a5669f346bc97fcccea0813d25d" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]1" Top="[float]88" Value="{ClusterBinding FieldName=Word\ Controls}" Width="[float]91">
 							<p.DefaultElementValue>0</p.DefaultElementValue>
 							<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="72073de3b80d4e0d80b197581ea1a2e3" Label="[UIModel]9591f12c6e934b00b5b5db2e850c0d62" RefnumType="[Type]:DotNet:NationalInstruments.PanelRuntime.ControlProxy, NationalInstruments.PanelRuntime" TabIndex="[int]0" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-								<Label Height="[float]16" Id="9591f12c6e934b00b5b5db2e850c0d62" IsVisualChild="[bool]False" LabelOwner="[UIModel]72073de3b80d4e0d80b197581ea1a2e3" Left="[float]61" Text="[string]OpaqueRefnum" Top="[float]-14" Width="[float]95" xmlns="http://www.ni.com/PanelCommon" />
+								<Label Height="[float]16" Id="9591f12c6e934b00b5b5db2e850c0d62" IsVisualChild="[bool]False" LabelOwner="[UIModel]72073de3b80d4e0d80b197581ea1a2e3" Left="[float]0" Text="[string]OpaqueRefnum" Top="[float]-20" Width="[float]95" xmlns="http://www.ni.com/PanelCommon" />
 							</OpaqueRefnum>
 						</ArrayViewer>
 						<Label Height="[float]16" Id="ca6c4a5669f346bc97fcccea0813d25d" LabelOwner="[UIModel]447032896aa1402581e001fc8519ef9f" Left="[float]4" Text="[string]Word Controls" Top="[float]68" Width="[float]77" />
@@ -65,16 +65,16 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="8970a9ee6b9c4b3ea1eab1a32024763e">
+		<p.TypeReference TypeId="7d5023b6428348e5b0a909dcc98cd77a">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Vocab Words" DataType="@758aac54bccd49c380c1fc8c6c239135" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Vocab Words" DataType="@446ed3f1bcac412b9248a888560b0e51" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Word Controls" DataType="@d75c2b4ce60044639a7ec736bcd0dd69" />
 					<Field FieldAccessPolicy="ReadWrite" Name="CSV Path" DataType="Path" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="ad5dca094883465f931699524f61478c">
+		<p.TypeReference TypeId="9bfac739edd14961b123f6c58bf70161">
 			<Composite Id="1" Name="VocabWord.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -92,7 +92,7 @@
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Word" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Definition" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="String" />
 					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Read Definition.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
@@ -131,12 +131,12 @@
 					</Function>
 					<Property Name="Word" Getter="Read Word.gvi" Setter="Write Word.gvi" DataType="String" />
 					<Property Name="Definition" Getter="Read Definition.gvi" Setter="Write Definition.gvi" DataType="String" />
-					<Property Name="Resource Link" Getter="Read Resource Link.gvi" Setter="Write Resource Link.gvi" DataType="Path" />
+					<Property Name="Resource Link" Getter="Read Resource Link.gvi" Setter="Write Resource Link.gvi" DataType="String" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="758aac54bccd49c380c1fc8c6c239135">
-			<VariableArray DereferenceType="@ad5dca094883465f931699524f61478c" />
+		<p.TypeReference TypeId="446ed3f1bcac412b9248a888560b0e51">
+			<VariableArray DereferenceType="@9bfac739edd14961b123f6c58bf70161" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="d75c2b4ce60044639a7ec736bcd0dd69">
 			<VariableArray DereferenceType=":DotNet:NationalInstruments.PanelRuntime.ControlProxy, NationalInstruments.PanelRuntime" />

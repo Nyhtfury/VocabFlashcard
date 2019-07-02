@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2A94ED9DC4DB05F1D7A26E953AD845D9FA7D554D33823385C61EAAA04C840AF709F8CB420F6BC5998FCDC3C0D32BDA2B7CA31E2AD9CFDC349F3744589FF67106" Timestamp="1D52F6F4363B699" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2B60C1ACAB37D9C182361FBC4FC6CC888085C55D98780BA392E5B42AD51D2DAAF31E7AA713F2BD3A2C4AD93DA49211EC7254D9531CE211AC71745252ECA0FC64" Timestamp="1D53076F5BEABF8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition BaseType="gObject" BaseTypeSignature="@8c315d1bae04489a8cb11298f4123f1e" DataType="@be99c69e0e874c269e7ac300020bf124" Id="8b9a1f33217444ed93c828383b0813a8" PrimaryColor="#FFFF0000" SecondaryColor="#FFFFFFFF" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition BaseType="gObject" BaseTypeSignature="@8c315d1bae04489a8cb11298f4123f1e" DataType="@612f8c6c419e407fa4999745fe9a5143" Id="8b9a1f33217444ed93c828383b0813a8" PrimaryColor="#FF92D050" SecondaryColor="#FFFFFFFF" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="a0c327f1502c48beafb437b9a9c8e6e6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="e7d22e24d80c4ba6b92c548a2281650f" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="d834cdf1acd9468cb6b3fae5354b694e" Left="[float]0" TemplateName="[string]Banner" Top="[float]0" Width="[float]40">
@@ -26,22 +26,20 @@
 		<DataItem DataType="String" Id="eb0281095ade48d9bb59e35048983940" Name="Definition">
 			<p.DefaultValue>""</p.DefaultValue>
 		</DataItem>
-		<DataItem DataType="Path" Id="9ed743295787426b892e6ceacd811654" Name="Resource Link">
-			<p.DefaultValue>
-				<Path a="1" />
-			</p.DefaultValue>
+		<DataItem DataType="String" Id="9ed743295787426b892e6ceacd811654" Name="Resource Link">
+			<p.DefaultValue>""</p.DefaultValue>
 		</DataItem>
 		<TypeDefinitionMemberProperty Id="44b712e3c6a74a358037d2e3680b42d6" MemberPropertyName="Word">
-			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@09bb63d8a0364157976774526f1ec8c2" Id="920221a4253e486e965290410df0ccb9" Target="VocabWord.gtype::Read Word.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@02e3282fe5a645a483cf089a1acaa8b0" Id="7bcd52f69d5e480fb2ec13288b2254b7" Target="VocabWord.gtype::Write Word.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b2c8ad501eae4a43b3e53695563c2cbc" Id="920221a4253e486e965290410df0ccb9" Target="VocabWord.gtype::Read Word.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@c6d144b5de8f4cb5a52fcfcbdfbfcaf6" Id="7bcd52f69d5e480fb2ec13288b2254b7" Target="VocabWord.gtype::Write Word.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		</TypeDefinitionMemberProperty>
 		<TypeDefinitionMemberProperty Id="5005388707f1466586babca5783ffba9" MemberPropertyName="Definition">
-			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f02ad5a877a64bf2948cb6048dbfb7ca" Id="228a4a4046a84cc8a5f39f1e4babcc13" Target="VocabWord.gtype::Read Definition.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@66db1e19aa464c5498fa3bf917ce7d5e" Id="8c51dcb64b944503978c3c0674126b33" Target="VocabWord.gtype::Write Definition.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@92ab2af7f14848f497b47ef2150f5686" Id="228a4a4046a84cc8a5f39f1e4babcc13" Target="VocabWord.gtype::Read Definition.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@9b97a607471c45f084c6d430a12e016f" Id="8c51dcb64b944503978c3c0674126b33" Target="VocabWord.gtype::Write Definition.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		</TypeDefinitionMemberProperty>
 		<TypeDefinitionMemberProperty Id="6a17d392b1734360bed599b9fe4bf7da" MemberPropertyName="Resource Link">
-			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@8a1e5c8e89de433cba26cc593ceb8aa5" Id="f85b577e401d4606be7ca9df3a0cc629" Target="VocabWord.gtype::Read Resource Link.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@34a636d344144073bda4b6ee0326ede8" Id="3c0778e9718b4701ae8984d270741f4e" Target="VocabWord.gtype::Write Resource Link.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f6ee4d8733a44434933894c061f0da7e" Id="f85b577e401d4606be7ca9df3a0cc629" Target="VocabWord.gtype::Read Resource Link.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+			<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@d2491ec563584973bdf072c12a78ea56" Id="3c0778e9718b4701ae8984d270741f4e" Target="VocabWord.gtype::Write Resource Link.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		</TypeDefinitionMemberProperty>
 	</TypeDefinition>
 	<EnvoyManagerFile Id="56e4c680a50a45b8905f8f0d92b24983" xmlns="http://www.ni.com/PlatformFramework">
@@ -53,8 +51,8 @@
 					<Label Height="[float]16" Id="bca186f2408549c7af7e4db53ca16dc4" LabelOwner="[UIModel]e9d9f4c71bad4270ad264c187a9aa0d3" Left="[float]108" Text="[string]Word" Top="[float]113" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
 					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="8691a81fb4d4410b71a86c2d92b8266" Label="[UIModel]edf8fb9d985f4d2f85ef22b3bd3b9368" Left="[float]110" MinHeight="[float]24" TabIndex="[int]1" Text="{DataItemBinding Id=eb0281095ade48d9bb59e35048983940}" Top="[float]191" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 					<Label Height="[float]16" Id="edf8fb9d985f4d2f85ef22b3bd3b9368" LabelOwner="[UIModel]8691a81fb4d4410b71a86c2d92b8266" Left="[float]110" Text="[string]Definition" Top="[float]171" Width="[float]52" xmlns="http://www.ni.com/PanelCommon" />
-					<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" Height="[float]24" Id="f677997885094d0aa90ebb51c785984d" Label="[UIModel]22975aff579d4245b7f9c7e85b2a401f" Left="[float]110" MinHeight="[float]24" Path="{DataItemBinding Id=9ed743295787426b892e6ceacd811654}" TabIndex="[int]2" Top="[float]248" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-					<Label Height="[float]16" Id="22975aff579d4245b7f9c7e85b2a401f" LabelOwner="[UIModel]f677997885094d0aa90ebb51c785984d" Left="[float]110" Text="[string]Resource Link" Top="[float]228" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="25394ec778284b5aa41942ebad041312" IsTabStop="[bool]True" Label="[UIModel]e0aa6f6599c741a3b5ded481df61a500" Left="[float]110" MinHeight="[float]24" TabIndex="[int]2" Text="{DataItemBinding Id=9ed743295787426b892e6ceacd811654}" Top="[float]248" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="e0aa6f6599c741a3b5ded481df61a500" LabelOwner="[UIModel]25394ec778284b5aa41942ebad041312" Left="[float]110" Text="[string]Resource Link" Top="[float]228" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Id="403d67fe402f4671ae8bb6813fe374e7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Word.gvi" StoragePath="Read Word.gvi" />
@@ -69,17 +67,17 @@
 		<p.TypeReference TypeId="8c315d1bae04489a8cb11298f4123f1e">
 			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="be99c69e0e874c269e7ac300020bf124">
+		<p.TypeReference TypeId="612f8c6c419e407fa4999745fe9a5143">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Word" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Definition" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="String" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="09bb63d8a0364157976774526f1ec8c2">
-			<Attributed AttributedType="@a11ce72ba67c40ed948a5810988df72a">
+		<p.TypeReference TypeId="b2c8ad501eae4a43b3e53695563c2cbc">
+			<Attributed AttributedType="@0dbff63b6fd3420b84f0cb7b0c3edfbf">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -87,8 +85,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="02e3282fe5a645a483cf089a1acaa8b0">
-			<Attributed AttributedType="@452ddb7c683d4457a3dcb9043af2058e">
+		<p.TypeReference TypeId="c6d144b5de8f4cb5a52fcfcbdfbfcaf6">
+			<Attributed AttributedType="@26872e3221294daa977ee7439e4b5e1e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -96,8 +94,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f02ad5a877a64bf2948cb6048dbfb7ca">
-			<Attributed AttributedType="@c0bbf7c1ff2343f090fa413daf004bae">
+		<p.TypeReference TypeId="92ab2af7f14848f497b47ef2150f5686">
+			<Attributed AttributedType="@9490cea593344531a40a748f2e0f38e2">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -105,8 +103,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="66db1e19aa464c5498fa3bf917ce7d5e">
-			<Attributed AttributedType="@26c0c55a742e44158366c4b454573ecf">
+		<p.TypeReference TypeId="9b97a607471c45f084c6d430a12e016f">
+			<Attributed AttributedType="@6f67953209204bd597ce3258e081df6e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -114,8 +112,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8a1e5c8e89de433cba26cc593ceb8aa5">
-			<Attributed AttributedType="@00a7bbcea086483d8eea8fd68235aa79">
+		<p.TypeReference TypeId="f6ee4d8733a44434933894c061f0da7e">
+			<Attributed AttributedType="@77bcb0fd3260409291ef52b9e5cec75d">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -123,8 +121,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="34a636d344144073bda4b6ee0326ede8">
-			<Attributed AttributedType="@9a2f0d3f01eb496b9d9f6e13a85e75b9">
+		<p.TypeReference TypeId="d2491ec563584973bdf072c12a78ea56">
+			<Attributed AttributedType="@4abc51742623416698df58cf156a1723">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -132,10 +130,10 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a11ce72ba67c40ed948a5810988df72a">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Word.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@ad5dca094883465f931699524f61478c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="0dbff63b6fd3420b84f0cb7b0c3edfbf">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Word.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@9bfac739edd14961b123f6c58bf70161" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@3cffb107230742a3b00c068bc9fe25a3">
+					<Attributed AttributedType="@2b2286626a234bac97e08e6d24bf848f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord in" />
 						</AttributeValues>
@@ -145,7 +143,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@aa5bded254154104aceb0da482806118">
+					<Attributed AttributedType="@a429c35dff2d41dc914e07e067c42ddc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord out" />
 						</AttributeValues>
@@ -163,10 +161,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="452ddb7c683d4457a3dcb9043af2058e">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Word.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@ad5dca094883465f931699524f61478c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="26872e3221294daa977ee7439e4b5e1e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Word.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@9bfac739edd14961b123f6c58bf70161" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@3cffb107230742a3b00c068bc9fe25a3">
+					<Attributed AttributedType="@2b2286626a234bac97e08e6d24bf848f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord in" />
 						</AttributeValues>
@@ -181,7 +179,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@aa5bded254154104aceb0da482806118">
+					<Attributed AttributedType="@a429c35dff2d41dc914e07e067c42ddc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord out" />
 						</AttributeValues>
@@ -194,10 +192,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c0bbf7c1ff2343f090fa413daf004bae">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Definition.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@ad5dca094883465f931699524f61478c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="9490cea593344531a40a748f2e0f38e2">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Definition.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@9bfac739edd14961b123f6c58bf70161" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@3cffb107230742a3b00c068bc9fe25a3">
+					<Attributed AttributedType="@2b2286626a234bac97e08e6d24bf848f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord in" />
 						</AttributeValues>
@@ -207,7 +205,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@aa5bded254154104aceb0da482806118">
+					<Attributed AttributedType="@a429c35dff2d41dc914e07e067c42ddc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord out" />
 						</AttributeValues>
@@ -225,10 +223,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="26c0c55a742e44158366c4b454573ecf">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Definition.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@ad5dca094883465f931699524f61478c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="6f67953209204bd597ce3258e081df6e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Definition.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@9bfac739edd14961b123f6c58bf70161" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@3cffb107230742a3b00c068bc9fe25a3">
+					<Attributed AttributedType="@2b2286626a234bac97e08e6d24bf848f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord in" />
 						</AttributeValues>
@@ -243,7 +241,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@aa5bded254154104aceb0da482806118">
+					<Attributed AttributedType="@a429c35dff2d41dc914e07e067c42ddc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord out" />
 						</AttributeValues>
@@ -256,10 +254,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="00a7bbcea086483d8eea8fd68235aa79">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Resource Link.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@ad5dca094883465f931699524f61478c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="77bcb0fd3260409291ef52b9e5cec75d">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Resource Link.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@9bfac739edd14961b123f6c58bf70161" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@3cffb107230742a3b00c068bc9fe25a3">
+					<Attributed AttributedType="@2b2286626a234bac97e08e6d24bf848f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord in" />
 						</AttributeValues>
@@ -269,12 +267,12 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@aa5bded254154104aceb0da482806118">
+					<Attributed AttributedType="@a429c35dff2d41dc914e07e067c42ddc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord out" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@b27362b44a044225a372ad7b8470883f">
+					<Attributed AttributedType="@67ba2f507aa94c59bca5ec2a57aef1a6">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Resource Link" />
 						</AttributeValues>
@@ -287,15 +285,15 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9a2f0d3f01eb496b9d9f6e13a85e75b9">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Resource Link.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@ad5dca094883465f931699524f61478c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="4abc51742623416698df58cf156a1723">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Resource Link.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@9bfac739edd14961b123f6c58bf70161" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@3cffb107230742a3b00c068bc9fe25a3">
+					<Attributed AttributedType="@2b2286626a234bac97e08e6d24bf848f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@e5f55d658bb241bf98482400bb918952">
+					<Attributed AttributedType="@3b5b3e1fb17342b196ed7367427b1778">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Resource Link" />
 						</AttributeValues>
@@ -305,7 +303,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@aa5bded254154104aceb0da482806118">
+					<Attributed AttributedType="@a429c35dff2d41dc914e07e067c42ddc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]VocabWord out" />
 						</AttributeValues>
@@ -318,7 +316,7 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="ad5dca094883465f931699524f61478c">
+		<p.TypeReference TypeId="9bfac739edd14961b123f6c58bf70161">
 			<Composite Id="1" Name="VocabWord.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -336,7 +334,7 @@
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Word" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Definition" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="String" />
 					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Read Definition.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
@@ -375,18 +373,18 @@
 					</Function>
 					<Property Name="Word" Getter="Read Word.gvi" Setter="Write Word.gvi" DataType="String" />
 					<Property Name="Definition" Getter="Read Definition.gvi" Setter="Write Definition.gvi" DataType="String" />
-					<Property Name="Resource Link" Getter="Read Resource Link.gvi" Setter="Write Resource Link.gvi" DataType="Path" />
+					<Property Name="Resource Link" Getter="Read Resource Link.gvi" Setter="Write Resource Link.gvi" DataType="String" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3cffb107230742a3b00c068bc9fe25a3">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@ad5dca094883465f931699524f61478c" />
+		<p.TypeReference TypeId="2b2286626a234bac97e08e6d24bf848f">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@9bfac739edd14961b123f6c58bf70161" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="a55d2099e7904297a58a4db0fa0a70c3">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="aa5bded254154104aceb0da482806118">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@ad5dca094883465f931699524f61478c" />
+		<p.TypeReference TypeId="a429c35dff2d41dc914e07e067c42ddc">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@9bfac739edd14961b123f6c58bf70161" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="67ba2f507aa94c59bca5ec2a57aef1a6">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="String" />
@@ -396,12 +394,6 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="3b5b3e1fb17342b196ed7367427b1778">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="b27362b44a044225a372ad7b8470883f">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Path" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="e5f55d658bb241bf98482400bb918952">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Path" />
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
@@ -417,7 +409,7 @@
 									<FontSetting FontFamily="Verdana" FontSize="9.75" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWord.gtype" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWordUML.gtype" Top="[float]0" Width="[float]40">
 								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 								<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
@@ -442,7 +434,7 @@
 									<FontSetting FontFamily="Verdana" FontSize="9.75" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWord.gtype" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWordUML.gtype" Top="[float]0" Width="[float]40">
 								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 								<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
@@ -467,7 +459,7 @@
 									<FontSetting FontFamily="Verdana" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWord.gtype" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWordUML.gtype" Top="[float]0" Width="[float]40">
 								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 								<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
@@ -492,7 +484,7 @@
 									<FontSetting FontFamily="Verdana" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWord.gtype" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWordUML.gtype" Top="[float]0" Width="[float]40">
 								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 								<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
@@ -517,7 +509,7 @@
 									<FontSetting FontFamily="Verdana" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWord.gtype" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWordUML.gtype" Top="[float]0" Width="[float]40">
 								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 								<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
@@ -542,7 +534,7 @@
 									<FontSetting FontFamily="Verdana" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWord.gtype" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]VocabWordUML.gtype" Top="[float]0" Width="[float]40">
 								<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 								<Rectangle Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 								<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff4192f6" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />

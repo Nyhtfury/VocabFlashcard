@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="56D139D332F39C41B7EAF7BE3C0E2FEEA234A84A023F1D9CEFF2241B9F095354FBD3B109EDADD8602651E533D11AAAD503B7EF46F5C0708CF31251A5442C4E69" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0AB5067EE9F5317DA031A5BDCDF3E874220ED6B4865B088F2B2B8D36666E6DB7983012A011B2ECB85EF007D4EAD2FE77460EAE3759F1F857334D974CDF0FAF44" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -11,7 +11,6 @@
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.2.0.49152" />
-		<ParsableNamespace FeatureSetName="UML Diagram Plugin" Name="http://www.vi-tech.nl/UMLEditorPlugin" />
 		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
@@ -132,7 +131,6 @@
 							<SparseEnvoyManagerDependencySource Id="adfa10f6fcff4174ae8aaa69000c1b94" Target="::NullTarget::Default Component" />
 						</SparseEnvoyManager>
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="87a529d57bfc4aa49ca2c0beaf8beaf1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gvi" StoragePath="Main.gvi" />
-						<SourceFileReference Id="488e97fc61f5476bb1fa23dc2c7e141e" ModelDefinitionType="{http://www.vi-tech.nl/UMLEditorPlugin}ClassDiagramDefinition" Name="ClassDiagram.ucd" StoragePath="ClassDiagram.ucd" />
 						<SourceFileReference Bindings="EnvoyManager,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="10a338a7395346ffbdcf93d3eeb3ae01" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VocabWord.gtype" StoragePath="VocabWord.gtype\VocabWord.gtype" />
 						<SourceFileReference Bindings="EnvoyManager,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="edbba919e5d046b79fc6f222e7ed0381" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Program State.gtype" StoragePath="Program State.gtype\Program State.gtype" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="d1ab8653e2414c56acdefae24d487698" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="InitVocabArray.gvi" StoragePath="InitVocabArray.gvi" />
@@ -185,7 +183,6 @@
 					</ComponentConfiguration>
 				</ComponentDefinition>
 				<SourceFileReference Id="79ae2a9e09214006a0ba2fef9fc38fb9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gvi" StoragePath="Main.gvi" />
-				<SourceFileReference Id="1a4aca38361140d99c0e752bf94fe41d" ModelDefinitionType="{http://www.vi-tech.nl/UMLEditorPlugin}ClassDiagramDefinition" Name="ClassDiagram.ucd" StoragePath="ClassDiagram.ucd" />
 				<SourceFileReference Bindings="EnvoyManager" Id="3bd7da8894074885a73570063180a22d" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VocabWord.gtype" StoragePath="VocabWord.gtype\VocabWord.gtype" />
 				<SourceFileReference Bindings="EnvoyManager" Id="38da84d517474ab8b2bedf59f76ba340" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Program State.gtype" StoragePath="Program State.gtype\Program State.gtype" />
 				<SourceFileReference Id="8a6c66d91d2c42819daeaad4790cb9e5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="InitVocabArray.gvi" StoragePath="InitVocabArray.gvi" />

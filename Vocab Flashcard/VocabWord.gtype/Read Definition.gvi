@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C03DF2B168B3CED8F7F761F3BA6457C173B7281069366A69A03A41E294C58B7543F18C08D728A3FFA0EAA5BF37320EE85808E81D9E0367CF6303DFA09D4117BF" Timestamp="1D5270F567A5F7D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4F2C6B72D98C6FA954D3E5BF6C777668ED7A82318C4DB1390CA8374A17CE42FF8556EA19DC0E2A1D7C0B564BAC7CC29E1D06B49DD16DAF6BF8E49B5D0D69F07F" Timestamp="1D53074C2C88E4B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -50,13 +50,13 @@
 				<p.Text>Error out</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="60 400 40 15" DataItem="16" Id="30" Label="31" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@32dfffdd98db453390635c749fa96b16" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@635dfcbdd2504d4d8b95bf18e0bf277c" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="30" Bounds="60 383 134 14" Id="31" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>VocabWord in</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="875 400 40 15" DataItem="17" Id="32" Label="33" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@32dfffdd98db453390635c749fa96b16" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@635dfcbdd2504d4d8b95bf18e0bf277c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="32" Bounds="875 383 142 14" Id="33" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>VocabWord out</p.Text>
@@ -79,10 +79,13 @@
 					</Comment>
 					<Wire Id="142" Joints="N(137:135)|(4,285) N(138:135)|(586,285)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="143" Joints="N(140:135)|(4,45) h(186) B(1) N(139:135)|(586,45) B(1) v(85) N(133:instance in)|(215,130)" xmlns="http://www.ni.com/PlatformFramework" />
-					<PropertyNode Bounds="215 125 50 20" HasErrorTerminals="False" Id="133" InstanceDataType="@898b6c622dcc4622b391be0b3668e595" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
-						<PropertyItemTerminal DataType="String" Hotspot="50 15" Id="c0t0v" Path="Definition" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyNode Bounds="215 125 50 45" Id="133" InstanceDataType="@635dfcbdd2504d4d8b95bf18e0bf277c" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+							<TypeDefinitionTarget TargetName="VocabWord.gtype" LastResolvedName="VocabWordUML.gtype" />
+						</p.TypeDefinitionTargets>
+						<PropertyItemTerminal DataType="String" Hotspot="50 25" Id="c0t0v" Path="Definition" PathElementMemberKinds="Field" Usage="Optional" />
 					</PropertyNode>
-					<Wire Id="149" Joints="N(133:c0t0v)|(265,140) N(150:135)|(586,140)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="149" Joints="N(133:c0t0v)|(265,150) h(5) v(-10) N(150:135)|(586,140)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 590 330" Id="136" Pattern="Error">
 					<Wire Id="144" Joints="N(140:136)|(4,45) N(139:136)|(586,45)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -121,20 +124,20 @@
 			</Cluster>
 			<Label Height="[float]16" Id="131" LabelOwner="[UIModel]124" Left="[float]544" Text="[string]Error out" Top="[float]352" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
 			<PanelExecutionWindow Id="151" />
-			<ValueClassControl BaseName="[string]VocabWord" Id="69b45c3c6dbf47ecb8ccf010a4f117cc" IsTabStop="[bool]True" Label="[UIModel]e81521678ee949dc8b8a1e4f0f3edcd7" Left="[float]100" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=16}" ValueClassControl="[Type]@32dfffdd98db453390635c749fa96b16" p4:ControlDefinitionChecksum="G1yJ+KWnQzhTE5vPgXqeTNo8FfxU0fHh5WUkvmeOoNU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ValueClassControl BaseName="[string]VocabWordUML" Id="69b45c3c6dbf47ecb8ccf010a4f117cc" IsTabStop="[bool]True" Label="[UIModel]e81521678ee949dc8b8a1e4f0f3edcd7" Left="[float]100" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=16}" ValueClassControl="[Type]@635dfcbdd2504d4d8b95bf18e0bf277c" p4:ControlDefinitionChecksum="ZpvGIs9Hdywsw7HUi74ElrzKUwk/GwRuv9yP8B+RcrY=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="VocabWord.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
 			</ValueClassControl>
-			<Label Id="e81521678ee949dc8b8a1e4f0f3edcd7" LabelOwner="[UIModel]69b45c3c6dbf47ecb8ccf010a4f117cc" Left="[float]100" Text="[string]VocabWord in" Top="[float]32" xmlns="http://www.ni.com/PanelCommon" />
-			<ValueClassControl BaseName="[string]VocabWord" Id="552431a256374cdc952623f6dacf62da" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]1784d371393b46fbaa170f80615ea10b" Left="[float]544" TabIndex="[int]3" Top="[float]52" Value="{DataItemBinding Id=17}" ValueClassControl="[Type]@32dfffdd98db453390635c749fa96b16" p4:ControlDefinitionChecksum="G1yJ+KWnQzhTE5vPgXqeTNo8FfxU0fHh5WUkvmeOoNU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ValueClassControl BaseName="[string]VocabWordUML" Id="552431a256374cdc952623f6dacf62da" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]1784d371393b46fbaa170f80615ea10b" Left="[float]544" TabIndex="[int]3" Top="[float]52" Value="{DataItemBinding Id=17}" ValueClassControl="[Type]@635dfcbdd2504d4d8b95bf18e0bf277c" p4:ControlDefinitionChecksum="ZpvGIs9Hdywsw7HUi74ElrzKUwk/GwRuv9yP8B+RcrY=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="VocabWord.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
 			</ValueClassControl>
-			<Label Id="1784d371393b46fbaa170f80615ea10b" LabelOwner="[UIModel]552431a256374cdc952623f6dacf62da" Left="[float]544" Text="[string]VocabWord out" Top="[float]32" xmlns="http://www.ni.com/PanelCommon" />
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="eb40b860e5fb48f58931c0489860d097" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]6c1656fe9e484af7b1f0290eba735511" Left="[float]544" MinHeight="[float]24" TabIndex="[int]4" Text="{DataItemBinding Id=100}" Top="[float]212" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Id="6c1656fe9e484af7b1f0290eba735511" LabelOwner="[UIModel]eb40b860e5fb48f58931c0489860d097" Left="[float]544" Text="[string]Definition" Top="[float]192" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Id="1784d371393b46fbaa170f80615ea10b" LabelOwner="[UIModel]552431a256374cdc952623f6dacf62da" Left="[float]544" Text="[string]VocabWord out" Top="[float]32" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Id="e81521678ee949dc8b8a1e4f0f3edcd7" LabelOwner="[UIModel]69b45c3c6dbf47ecb8ccf010a4f117cc" Left="[float]100" Text="[string]VocabWord in" Top="[float]32" xmlns="http://www.ni.com/PanelCommon" />
 		</NativeFrontPanel>
 		<DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="14" Name="Error in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
@@ -162,16 +165,16 @@
 			</p.TypeDefinitionTargets>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed.</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@32dfffdd98db453390635c749fa96b16" Id="16" Name="VocabWord in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@635dfcbdd2504d4d8b95bf18e0bf277c" Id="16" Name="VocabWord in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="VocabWord.gtype" />
+				<TypeDefinitionTarget TargetName="VocabWord.gtype" LastResolvedName="VocabWordUML.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="1" DataType="@32dfffdd98db453390635c749fa96b16" Id="17" Name="VocabWord out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@635dfcbdd2504d4d8b95bf18e0bf277c" Id="17" Name="VocabWord out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="VocabWord.gtype" />
+				<TypeDefinitionTarget TargetName="VocabWord.gtype" LastResolvedName="VocabWordUML.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 		<DataItem CallDirection="Output" CallIndex="0" DataType="String" Id="100" Name="Definition" xmlns="http://www.ni.com/MocCommon">
@@ -179,13 +182,14 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="32dfffdd98db453390635c749fa96b16">
-			<Composite Id="1" Name="VocabWord.gtype">
+		<p.TypeReference TypeId="635dfcbdd2504d4d8b95bf18e0bf277c">
+			<Composite Id="1" Name="VocabWordUML.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
-					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
@@ -196,43 +200,46 @@
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Word" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Definition" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="Path" />
-					<Field FieldAccessPolicy="ReadWrite" Name="ID" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="String" />
 					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Read Definition.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Read Word.gvi" ReturnType="Void">
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Read Resource Link.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Write Definition.gvi" ReturnType="Void">
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Read Word.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Write Word.gvi" ReturnType="Void">
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Write Definition.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Write Resource Link.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Write Word.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
 					<Property Name="Word" Getter="Read Word.gvi" Setter="Write Word.gvi" DataType="String" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="898b6c622dcc4622b391be0b3668e595">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Word" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Definition" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Resource Link" DataType="Path" />
-					<Field FieldAccessPolicy="ReadWrite" Name="ID" DataType="Int32" />
+					<Property Name="Definition" Getter="Read Definition.gvi" Setter="Write Definition.gvi" DataType="String" />
+					<Property Name="Resource Link" Getter="Read Resource Link.gvi" Setter="Write Resource Link.gvi" DataType="String" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

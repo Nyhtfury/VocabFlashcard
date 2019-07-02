@@ -95,4 +95,348 @@
 			<string>NationalInstruments.DataComms.DLLcache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>ni-analysis-advanced-src-1.0.8.2_c08128204abf4622aaa5c8fc74596578.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-analysis-advanced-src-1.0.8.2.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>AAL_Special_Func_25_c08128204abf4622aaa5c8fc74596578.gcompcache</string>
+		</key>
+		<value>
+			<string>AAL_Special_Func.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>AAL Special Functions_13_25_c08128204abf4622aaa5c8fc74596578.slicache</string>
+		</key>
+		<value>
+			<string>AAL Special Functions.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Error Dialog Type_60_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Error Dialog Type.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Localization_25_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Localization.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_GEH_75_6_6547bbe8324e4a84956426ddd4f31cb9.slicache</string>
+		</key>
+		<value>
+			<string>lv_GEH.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>localization_72_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>localization.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_GEH_userDefinedDescriptions_76_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>lv_GEH_userDefinedDescriptions.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>JSON (location)_70_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>JSON (location).gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Localized String Entry_29_25_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Localized String Entry.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Localized String Dict_32_25_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Localized String Dict.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>TagReturnType_81_6_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>TagReturnType.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_error_74_6_6547bbe8324e4a84956426ddd4f31cb9.slicache</string>
+		</key>
+		<value>
+			<string>lv_error.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Localization_Functions_30_25_6547bbe8324e4a84956426ddd4f31cb9.slicache</string>
+		</key>
+		<value>
+			<string>Localization_Functions.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Node_38_25_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Node.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Property_39_25_6547bbe8324e4a84956426ddd4f31cb9.gtypecache</string>
+		</key>
+		<value>
+			<string>Property.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Execution Control_29_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Execution Control.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>VocabProgram_d2ac4e073ded4f7a9932f71bdbbc76da.gtypecache</string>
+		</key>
+		<value>
+			<string>VocabProgram.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>StateData_d2ac4e073ded4f7a9932f71bdbbc76da.gtypecache</string>
+		</key>
+		<value>
+			<string>StateData.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Numeric_10_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Numeric.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Configuration File (INI)_4_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Configuration File (INI).gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Data Type_5_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Data Type.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Input Devices_8_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Input Devices.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Libraries and Executables_9_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Libraries and Executables.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Operating System_11_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Operating System.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Registry_12_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Registry.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Rendezvous_13_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Rendezvous.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Semaphore_14_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Semaphore.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.SMTP Email_15_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.SMTP Email.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Sound_16_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Sound.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Strings_17_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Strings.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.TCP_18_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.TCP.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.TDMS_19_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.TDMS.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Timed Loop_20_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Timed Loop.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Timing_21_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Timing.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.URL_22_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.URL.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Waveform_23_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Waveform.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Zip_24_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Zip.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.User Interface_26_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.User Interface.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Data Communications_27_6547bbe8324e4a84956426ddd4f31cb9.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Data Communications.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_url_15_22_6547bbe8324e4a84956426ddd4f31cb9.slicache</string>
+		</key>
+		<value>
+			<string>lv_url.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>data_5ce3230f55c47b6a419b435cab2cdc8.xmlcache</string>
+		</key>
+		<value>
+			<string>data.xmlcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>VocabWordUML_10a338a7395346ffbdcf93d3eeb3ae01.gtypecache</string>
+		</key>
+		<value>
+			<string>VocabWordUML.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>
